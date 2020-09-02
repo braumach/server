@@ -1,0 +1,15 @@
+# 2020-09-01 Dmitry Fedyuk https://www.upwork.com/fl/mage2pro
+AcceptEnv LANG LC_*
+ChallengeResponseAuthentication no
+# http://fredericiana.com/2009/10/21/keeping-ssh-from-disconnecting-automatically
+ClientAliveInterval 300
+ClientAliveCountMax 3333
+PasswordAuthentication yes
+PermitRootLogin yes
+PrintLastLog yes
+PrintMotd no
+PubkeyAuthentication yes
+Subsystem	sftp	/usr/lib/openssh/sftp-server
+TCPKeepAlive yes
+UsePAM yes
+X11Forwarding yes

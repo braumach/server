@@ -1,0 +1,3 @@
+# MammothVPS mPanel Memory Graph
+# Read More: http://www.mammothvps.com.au/kb/troubleshooting/mpanel-memory-graph
+*/5 * * * * nobody /usr/local/bin/mpanel-memory-graph
